@@ -1,8 +1,41 @@
 body {
-  background-color:#666666;
+  background-color:#3f3f3f;
+  color:#E0E0E0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  background-color:#c77811;
+  padding: 25px;
+}
+
+#navbar-header {
+  margin: 50px;
+  color:#c77811;
+  font-weight: bolder;
+}
+
+.flex-container > div > a {
+  background-color: #202020;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
   color:#E0E0E0;
 }
 
-h1 {
-  color:blue;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.content{
+  margin: 8px;
+  padding: 50px 0px;
 }
